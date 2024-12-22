@@ -18,21 +18,14 @@
 		var CONTEXT_PATH = "${CONTEXT_PATH}";
 		var RESOURCES_PATH = "${RESOURCES_PATH}";
 	</script>
-	<link rel="stylesheet" href="${RESOURCES_PATH}/css/common.css">
+	<link rel="stylesheet" href="${RESOURCES_PATH}/assets/css/common.css">
     <title><tiles:insertAttribute name="title" /></title>
   </head>
   
   <body>
-  	<div class='wrap'>
-  		<tiles:insertAttribute name="header" />
-		  <div class='content'>  	
-  			<tiles:insertAttribute name="left"/>
-	  		<div class="page_content">
-	  			<tiles:insertAttribute name="body"/>
-	  		</div>
-  		</div>
-  		<tiles:insertAttribute name="footer" />
-  	</div>
+	<tiles:insertAttribute name="header" />
+	<tiles:insertAttribute name="body"/>
+	<tiles:insertAttribute name="footer" />
   </body>
   
 </html>

@@ -17,6 +17,9 @@
 no = ${test.NO }<br>
 subject = ${test.SUBJECT}<br>
 contents = ${test.CONTENTS }<br>
+
+<a href="/main/home.do">클 릭</a>
+
 </c:forEach>
 
 </body>
